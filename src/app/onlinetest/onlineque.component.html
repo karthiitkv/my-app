@@ -1,0 +1,6 @@
+<p (click)=ngOnInit()><u>Reload</u></p>
+<ul class="questions">
+    <li *ngFor="let que of quest">
+        <span class="badge">{{que.queId}}</span> {{que.question}}
+    </li>
+</ul>
